@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+.container {
+    margin: 50px auto;
+    padding: 20px;
+    background: #2c2c2c;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+h1 {
+    font-optical-sizing: auto;
+    font-family: "Afacad Flux", serif;; /* Applying the Dancing Script font */
+}
+.sentence {
+    font-size: 60px;
+    font-optical-sizing: auto;
+    font-family: "Afacad Flux", serif;; /* Applying the Dancing Script font */
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-family: "Afacad Flux", serif;; /* Applying the Dancing Script font */
+}
+.typing-area {
+    font-family: "Afacad Flux", serif;; /* Applying the Dancing Script font */
+    font-size: 60px;
+    font-optical-sizing: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #6c6c6c;
+}
+.word {
+    font-size: 60px;
+    margin: 0 5px;
+}
+.current-word {
+    color: #ffffff;
+    text-decoration: underline;
+    text-decoration-color: #f4d03f;
+}
+.completed-word {
+    color: #ffffff;
+    font-weight: bold;
+}
+.typed-part {
+    color: #ffffff; /* This makes the typed part white */
+    font-weight: bold;
+}
+.remaining-part {
+    color: #6c6c6c;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.results {
+    margin-top: 20px;
+    font-size: 18px;
+}
